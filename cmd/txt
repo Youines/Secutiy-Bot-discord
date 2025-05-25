@@ -1,0 +1,10 @@
+/restore type:Tout          # Restaure rôles + canaux
+/restore type:Rôles         # Restaure uniquement les rôles
+/restore type:Canaux        # Restaure uniquement les canaux
+/lockdown action:Activer raison:"Raid en cours"
+/lockdown action:Désactiver raison:"Situation sous contrôle"
+/backup                     # Force une sauvegarde immédiate
+/whitelist action:Ajouter utilisateur:@pseudo    # Ajoute un utilisateur de confiance
+/whitelist action:Retirer utilisateur:@pseudo    # Retire un utilisateur
+/whitelist action:Lister                         # Affiche la liste complète
+/status                     # Affiche l'état de sécurité complet
